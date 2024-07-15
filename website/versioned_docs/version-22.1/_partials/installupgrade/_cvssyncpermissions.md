@@ -1,1 +1,0 @@
-If you have CVS integrations, synchronize permissions post upgrade. See [Synchronize TeamForge Source Control Integrations][synchronizeteamforgesourcecontrolintegrations].

@@ -22,16 +22,8 @@ export const HomePageData = {
       link: "/docs/release-notes/teamforge-new",
     },
     {
-      title: "TeamForge 23.0",
-      link: "/docs/23.0/release-notes/teamforge-new",
-    },
-    {
-      title: "TeamForge 22.1",
-      link: "/docs/22.1/release-notes/teamforge-new",
-    },
-    {
-      title: "TeamForge 22.0",
-      link: "/docs/22.0/release-notes/teamforge-new",
+      title: "TeamForge 24.0",
+      link: "/docs/next/release-notes/teamforge-new",
     },
   ],  
   getStarted: [
@@ -39,49 +31,25 @@ export const HomePageData = {
       title: "Get started",
       description:
         "The process of joining a TeamForge site varies according to your site's setup.",
-      link: "/docs/getstarted-joinasite",
+      link: "/docs/getstarted-joinasite", 
     },
     {
       title: "Install / Upgrade",
       description:
         "Install TeamForge on a single server or on a distributed high availability setup. A TeamForge site consists of a core TeamForge application and several tightly integrated services that support it. In addition, you can integrate TeamForge with other third party applications such as Nexus, Jenkins, Jira and so on. Some of the TeamForge services are mandatory and some are optional. You can install the services, all in one single server, or distribute them across two or more servers.",
-      link: "/docs/category/install",
+      link: "/docs/installpages/allinoneserver_rhel_centos",
     },
     {
-      title: "SCM",
+      title: "Source Code",
       description:
         "You can install Git on the TeamForge Application Server or on a separate server dedicated for SCM.",
-      link: "/docs/category/source-code",
+      link: "/docs/internalcodebrowser",
     },
     {
-      title: "Trackers",
-      description:
-        "Learn more about issue tracking in TeamForge. A TeamForge tracker is a collection of records that follow the development of a unit of work from conception through to completion. You can create a tracker to manage almost any kind of work that your project calls for.",
-      link: "/docs/category/trackers",
-    },
-    {
-      title: "Planning folders",
-      description:
-        "When you've thought through your plan, express it in one or more planning folders.",
-      link: "/docs/category/planning-folders",
-    },
-    {
-      title: "Boards",
-      description:
-        "Learn more about how to set up and work with the Planning, Kanban, and Task boards.",
-      link: "/docs/category/boards",
-    },
-    {
-      title: "Authentication",
+      title: "Git Integration",
       description:
         "TeamForge supports LDAP, SAML, and OAuth. Learn more about TeamForge's authentication options here.",
-      link: "/docs/identityinfo",
-    },
-    {
-      title: "Reports",
-      description:
-        "TeamForge supports LDAP, SAML and OAuth. Learn more about TeamForge's authentication options here.",
-      link: "/docs/category/reports",
+      link: "/docs/gitoverview",
     },    
   ],
 };

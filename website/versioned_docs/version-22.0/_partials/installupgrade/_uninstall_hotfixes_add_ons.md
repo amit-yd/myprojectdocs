@@ -1,1 +1,0 @@
-   Uninstall hotfixes and add-ons, if any, installed on your site.
