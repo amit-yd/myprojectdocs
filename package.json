@@ -2,7 +2,6 @@
   "name": "docs-template",
   "packageManager": "yarn@4.1.1",
   "description": "docs template for creating new docs for products",
-  "author": "digi-anuragk <anurag.kanwar@digital.ai>",
   "license": "MIT",
   "private": true,
   "workspaces": [
@@ -16,8 +15,8 @@
     "website:build": "yarn workspace docs-template build",
     "website:build:fast": "yarn workspace docs-template build:fast",
     "website:serve": "yarn workspace docs-template serve",
-    "content:push": "git subtree push --prefix website/lib/data-content  https://github.com/digi-anuragk/docs-data-content.git main",
-    "content:pull": "git subtree pull --prefix website/lib/data-content  https://github.com/digi-anuragk/docs-data-content.git main --squash"
+    "content:push": "git subtree push --prefix website/lib/data-content  https://github.com/amit-yd/myprojectdocs.git main",
+    "content:pull": "git subtree pull --prefix website/lib/data-content  https://github.com/amit-yd/myprojectdocs.git main --squash"
   },
   "dependencies": {
     "@babel/core": "^7.24.4",
