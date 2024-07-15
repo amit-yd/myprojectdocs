@@ -1,5 +1,5 @@
 ---
-description: Here's a list of few noteworthy issues fixed in TeamForge 23.1.
+description: Here's a list of few noteworthy issues fixed in TeamForge 24.0.
 id: teamforge-fixedissues
 keywords:
 - release
@@ -12,20 +12,20 @@ lastUpdatedAt: Nov 23, 2023
 product: teamforge
 tags:
 - release_notes
-title: What's Fixed in TeamForge 23.1?
+title: What's Fixed in TeamForge 24.0?
 ---
-<!-- See CRI 23.1 fixed issues: https://forge.collab.net/sf/go/srch3576 and choose Release 23.1 planning folder -->
-In addition to fixing a few security vulnerabilities, the following issues were also fixed in TeamForge 23.1. 
+<!-- See CRI 24.0 fixed issues: https://forge.collab.net/sf/go/srch3576 and choose Release 24.0 planning folder -->
+In addition to fixing a few security vulnerabilities, the following issues were also fixed in TeamForge 24.0. 
 
 <!-- See, https://forge.collab.net/sf/go/artf423609 -->
-* Fixed—After upgrading to TeamForge release 23.0, HTML editing displayed HTML code instead of text components in the project home.
+* Fixed—After upgrading to TeamForge release 24.0, HTML editing displayed HTML code instead of text components in the project home.
 <!-- See, https://forge.collab.net/sf/go/artf423340 -->
 <!-- * Fixed—The `SCRAM-SHA-256` encryption is enabled for password authentication in PostgreSQL. -->
-  <!-- Hiding SCRAM-SHA-256 update as it was reverted back in 23.1 Update1. -->
+  <!-- Hiding SCRAM-SHA-256 update as it was reverted back in 24.0 Update1. -->
 <!-- See, https://forge.collab.net/sf/go/artf423534 -->
 * Fixed an issue that caused a provision error during database migration.
 <!-- See, https://forge.collab.net/sf/go/artf423339 -->
-* Fixed—The Transport Layer Security (TLS) encryption is now supported in TeamForge 23.1, adding a TLS stamp to both email sending and receiving end.
+* Fixed—The Transport Layer Security (TLS) encryption is now supported in TeamForge 24.0, adding a TLS stamp to both email sending and receiving end.
 <!-- See, https://forge.collab.net/sf/go/artf423457 and https://forge.collab.net/sf/go/artf423961 -->
 * Fixed an issue that led to high CPU utilization when the baseline creation count was increased in the baseline server.
 <!-- See, https://forge.collab.net/sf/go/artf423609 and https://forge.collab.net/sf/go/artf423959 -->

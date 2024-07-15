@@ -104,9 +104,9 @@ It is assumed that you're running Nexus version 2.14.8 that uses Java 8.
 4. Click **Realms** from the **Administration > Security** menu.
 5. Select **TF Authentication Realm** and **TF Authentication Token Realm** from the available list of realms.
 
-:::note
-Both the **TF Authentication Realm** and **TF Authentication Token Realm** will get listed in the available list of realms, only if you have already installed the TeamForge-Nexus 3 plugin. For installing the TeamForge-Nexus 3 plugin, see [Installing the TeamForge-Nexus 3 Integration Plugin](./installnexusplugin#installtfnexus3plugin).
-:::
+   :::note
+   Both the **TF Authentication Realm** and **TF Authentication Token Realm** will get listed in the available list of realms, only if you have already installed the TeamForge-Nexus 3 plugin. For installing the TeamForge-Nexus 3 plugin, see [Installing the TeamForge-Nexus 3 Integration Plugin](./installnexusplugin#installtfnexus3plugin).
+   :::
    
    ![](/docs/assets/images/nexus-3-authentication.png)
 

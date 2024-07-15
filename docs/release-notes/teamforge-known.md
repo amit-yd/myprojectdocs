@@ -1,6 +1,6 @@
 ---
 description: The following noteworthy issues, including any workarounds we may have, are
-  known to exist in the TeamForge 23.0 release. These issues would be resolved in
+  known to exist in the TeamForge 24.0 release. These issues would be resolved in
   an upcoming release.
 id: teamforge-known
 keywords:
@@ -15,7 +15,7 @@ lastUpdatedAt: Dec 20, 2023
 product: teamforge
 tags:
 - release_notes
-title: Known Issues in TeamForge 23.1
+title: Known Issues in TeamForge 24.0
 ---
 
 <!-- See, https://forge.collab.net/sf/go/artf423728 -->

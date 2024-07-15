@@ -15,6 +15,38 @@
       },
       {
         "type": "category",
+        "label": "Release Notes",
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "release-notes/teamforge-new",
+            "label": "What's New?"
+          },
+          {
+            "type": "doc",
+            "id": "release-notes/teamforge-fixedissues",
+            "label": "What's Fixed?"
+          },
+          {
+            "type": "doc",
+            "id": "release-notes/teamforge-known",
+            "label": "Known Issues"
+          },
+          {
+            "type": "doc",
+            "id": "release-notes/apichangelog",
+            "label": "API Change Log"
+          },
+          {
+            "type": "doc",
+            "id": "release-notes/teamforge-23_1-update1",
+            "label": "TeamForge 23.1 Update 1 Release Notes"
+          }
+        ]
+      },
+      {
+        "type": "category",
         "label": "Plan Install / Upgrade",
         "collapsed": true,
         "items": [
@@ -74,11 +106,6 @@
             "type": "doc",
             "id": "codereviewpolicy",
             "label": "Code Review Policy"
-          },
-          {
-            "type": "doc",
-            "id": "historyprotect",
-            "label": "History Protection"
           },
           {
             "type": "doc",
@@ -171,18 +198,6 @@
             "type": "doc",
             "id": "deletesourcecoderepository",
             "label": "Delete a Source Code Repository"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "Discussion Forums",
-        "collapsed": true,
-        "items": [
-          {
-            "type": "doc",
-            "id": "forums",
-            "label": "Discussion Forums"
           }
         ]
       },

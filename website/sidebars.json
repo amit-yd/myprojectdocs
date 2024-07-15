@@ -35,21 +35,11 @@
             },
             {
               "type": "doc",
-              "id": "release-notes/siteoptionschangelog",
-              "label": "Site Options Change Log"
-            },
-            {
-              "type": "doc",
               "id": "release-notes/apichangelog",
               "label": "API Change Log"
-            },
-            {
-              "type": "doc",
-              "id": "release-notes/teamforge-23_1-update1",
-              "label": "TeamForge 23.1 Update 1 Release Notes"
             }
-          ]
-        },
+          ]        
+          },
         {
           "type": "category",
           "label": "Plan Install / Upgrade",
