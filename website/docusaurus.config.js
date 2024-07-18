@@ -1,6 +1,6 @@
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 import tailwindPlugin from './plugins/tailwind/tailwind.config.cjs';
-import {variableInjectorPlugin} from './plugins/remark/variableInjector.js';
+import { variableInjectorPlugin } from './plugins/remark/variableInjector.js';
 import versions from './versions.json';
 
 /** Dynamic definitions */
@@ -27,7 +27,7 @@ const config = {
   organizationName: 'digital.ai',
   projectName: `docs-${productName.toLowerCase()}`,
   url: 'https://staging.docs.digital.ai',
-  baseUrl: `/${productName.toLowerCase()}/`,
+  baseUrl: '/', // Updated baseUrl here
   trailingSlash: false, // because trailing slashes can break some existing relative links
 
   favicon: 'brand/digitalai/Favicon-FC-.svg',
@@ -113,7 +113,7 @@ const config = {
         ],
       },
     ],
-    ['./plugins/sync-constants', {path: './versioned_constants'}],
+    ['./plugins/sync-constants', { path: './versioned_constants' }],
     tailwindPlugin,
   ],
   themeConfig:
@@ -178,7 +178,7 @@ const config = {
                 label: 'Release',
                 to: '../release/',
                 target: '_self',
-              },              
+              },
               {
                 label: 'App Management',
                 to: '../appmanagement/',
@@ -293,13 +293,13 @@ const config = {
           content:
             'https://digital.ai/wp-content/uploads/2022/09/HP-BN-GEN-2022-12-platform-image-2048x367.png',
         },
-        {name: 'twitter:card', content: 'summary_large_image'},
+        { name: 'twitter:card', content: 'summary_large_image' },
         {
           name: 'twitter:image',
           content:
             'https://digital.ai/wp-content/uploads/2022/09/HP-BN-GEN-2022-12-platform-image-2048x367.png',
         },
-        {name: 'twitter:site', content: '@digitaldotai'},
+        { name: 'twitter:site', content: '@digitaldotai' },
       ],
       docs: {
         sidebar: {
