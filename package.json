@@ -16,7 +16,8 @@
     "website:build:fast": "yarn workspace docs-template build:fast",
     "website:serve": "yarn workspace docs-template serve",
     "content:push": "git subtree push --prefix website/lib/data-content  https://github.com/amit-yd/myprojectdocs.git main",
-    "content:pull": "git subtree pull --prefix website/lib/data-content  https://github.com/amit-yd/myprojectdocs.git main --squash"
+    "content:pull": "git subtree pull --prefix website/lib/data-content  https://github.com/amit-yd/myprojectdocs.git main --squash",
+    "jekycontent:push": "./jekyllbuild-amit.sh"
   },
   "dependencies": {
     "@babel/core": "^7.24.4",

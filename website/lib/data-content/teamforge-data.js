@@ -3,7 +3,7 @@ import AppManIconDarkPNG from "@site/static/brand/products/App_Management-RGB/Ap
 export const HomePageData = {
   id: 7,
   name: "TeamForge",
-  title: "Digital.ai TeamForge",
+  title: "My Sample Doc",
   description:
     "Ensure governance, compliance, and code security standards are maintained in development.",
   iconImage: AppManIconDarkPNG,
